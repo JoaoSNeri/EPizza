@@ -1,0 +1,41 @@
+#banners{
+    width: 100vw;
+    height: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+#banners img{
+    width: 100vw;
+    height: 100%;
+}
+@media (min-width: 1024px) and ( max-width:1799px) {
+    #banners{
+        width: 100vw;
+        height: auto;
+        height: auto;
+        overflow: hidden;
+        background-color: rgba(237,227,228,255);
+    }
+    #banners img{
+        width: 100vw;
+        height: 100%;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+  }
+  @media screen and (min-width: 1800px){
+    #banners{
+        width: 100vw;
+        height: auto;
+        height: auto;
+        overflow: hidden;
+        background-color: rgba(237,227,228,255);
+    }
+    #banners img{
+        width: 100vw;
+        height: 100%;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+  }

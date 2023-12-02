@@ -1,0 +1,90 @@
+#promocoes {
+  background-color: var(--cor-laranja);
+}
+
+#promocoes h1 {
+  font-size: var(--subtitulo);
+  font-style: var(--normal);
+  font-weight: var(--bold);
+  color: var(--cor-preto);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#promocoes form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+#promocoes form input {
+  width: 70vw;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+}
+#promocoes form input::placeholder{
+    padding-left: .5rem;
+}
+#promocoes form div {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+}
+#promocoes form input[type="date"],
+#promocoes form input[type="submit"] {
+  width: 32vw;
+}
+#promocoes form input[type="submit"] {
+  margin-left: 1rem;
+  color: var(--cor-branco);
+  background-color: var(--cor-marrom);
+}
+@media screen and (min-width: 1024px) {
+  #promocoes {
+    background-color: var(--cor-laranja);
+    padding-bottom: 4rem;
+  }
+  
+  #promocoes h1 {
+    font-size: 25px;
+    font-style: var(--normal);
+    font-weight: var(--bold);
+    color: var(--cor-preto);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  #promocoes form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  #promocoes form input {
+    width: 70vw;
+    padding: 1rem;
+    outline: none;
+    border: none;
+  }
+  #promocoes form input::placeholder{
+      padding-left: .5rem;
+  }
+  #promocoes form div {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  #promocoes form input[type="date"],
+  #promocoes form input[type="submit"] {
+    width: 50vw;
+  }
+  #promocoes form input[type="submit"] {
+    margin-left: 1rem;
+    color: var(--cor-branco);
+    background-color: var(--cor-marrom);
+  }
+}

@@ -1,0 +1,36 @@
+#bebidas h2{
+    margin-left: 1rem;
+}
+
+#bebidas ul{
+    padding-left: 2rem;
+    list-style: none;
+    line-height: 1.5rem;
+}
+#bebidas ul li{
+    font-size: 1rem;
+}
+#bebidas ul li h3{
+    font-size: .8rem;
+}
+@media screen and (min-width: 768px) {
+    #bebidas h1{
+        margin-bottom: 1rem;
+    }
+    #bebidas h2{
+        margin-left: 1rem;
+    }
+    .lista-bebidas{
+        padding-top: 2rem;
+    }
+    #bebidas ul{
+        list-style: none;
+        line-height: 1.5rem;
+    }
+    #bebidas ul li{
+        font-size: 1rem;
+    }
+    #bebidas ul li h3{
+        font-size: .8rem;
+    }
+}

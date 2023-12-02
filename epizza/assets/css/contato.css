@@ -1,0 +1,43 @@
+#contato p{
+    padding-bottom: 2.5rem;
+}
+
+#contato .contato-contatos,#contato .contato-contatos div{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+#contato .contato-contatos div{
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    #contato{
+        padding-top: 10rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        
+    }
+    #contato h1{
+        font-size: 35px;
+    }
+    #contato p{
+        padding-top: 10px;
+        font-size: 20px;
+        padding-bottom: 8rem;
+    }
+    #contato .contato-contatos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 10rem;
+    }
+    #contato .contato-contatos div{
+        text-align: center;
+        flex-direction: column;
+    }
+    #contato .contato-contatos p{
+        max-width: 250px;
+    }
+}
+  

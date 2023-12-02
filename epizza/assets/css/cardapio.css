@@ -1,0 +1,69 @@
+@media(max-width: 767px) {
+  #cardapio {
+  padding: 2rem 0 0;
+  background-color: var(--cor-branco);
+  color: var(--cor-preto);
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+#cardapio img{
+  width: 100vw;
+  height: 100%;
+}
+#cardapio .cardapio-conteudo {
+  padding: 0 2rem 2rem;
+}
+
+#cardapio .cardapio-conteudo p {
+  padding: 0 0 2rem;
+}
+#cardapio .cardapio-conteudo a {
+  color: var(--cor-laranja);
+  font-weight: var(--bold);
+  font-size: var(--subtitulo);
+  padding: .5rem 1rem;
+  border: 1px solid var(--cor-laranja);
+  border-radius: 15px;
+}
+#cardapio .cardapio-conteudo a:hover{
+  color: white;
+  background-color: var(--cor-laranja);
+}
+}
+
+@media screen and (min-width: 768px) {
+  #cardapio {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+  }
+  #cardapio img{
+    margin-left: 8rem;
+    margin-bottom: 8rem;
+    height: auto;
+    width: 600px;
+  }
+  #cardapio .cardapio-conteudo {
+    padding: 0 2rem 2rem;
+    margin: 6rem;
+  }
+  #cardapio .cardapio-conteudo h1 {
+    padding: 0 0 2rem;
+    font-size: 35px;
+  }
+  #cardapio .cardapio-conteudo p {
+    padding: 0 0 2rem;
+    font-size: 20px;
+  }
+  #cardapio .cardapio-conteudo a {
+    color: var(--cor-laranja);
+    font-weight: var(--bold);
+    font-size: var(--subtitulo);
+    padding: .5rem 1rem;
+    border: 1px solid var(--cor-laranja);
+    border-radius: 15px;
+  }  
+}
